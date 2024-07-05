@@ -10,6 +10,6 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "prettier": "^3.3.2"
+    "prettier": "npm:@btmills/prettier@^3.2.5"
   }
 }

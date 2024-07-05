@@ -5,7 +5,7 @@ const requestHandler = (request, response) => {
   // Configura o cabeçalho da resposta com status 200 e Content-Type text/plain
   response.writeHead(200, {'Content-Type': 'text/plain'});
   // Escreve 'Olá' como corpo da resposta
-  response.end('Olá');
+  response.end("Olá");
 }
 
 // Cria um servidor HTTP e define a função de requestHandler para lidar com as requisições
@@ -18,3 +18,4 @@ const PORT = 8000;
 server.listen(PORT, () => {
   console.log(`Servidor rodando em http://localhost:${PORT}`);
 });
+
