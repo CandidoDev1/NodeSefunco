@@ -1,0 +1,5 @@
+comando para formatar o projeto inteiro 
+        " npm run prettier
+
+ESlint encontra erro e dá possiblidade de corrigir erro 
+ 
